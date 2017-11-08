@@ -1,0 +1,14 @@
+// This is the top-level scss file. Import all other files in here.
+@import 'home';
+
+.list-ul{
+  list-style-type:none;
+}
+
+li.completed{
+  text-decoration: line-through;
+}
+
+input.highlight{
+  border-color:red;
+}
